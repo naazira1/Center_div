@@ -1,0 +1,21 @@
+GET https://example.com/comments/1 HTTP/1.1
+
+###
+
+GET http://kojoyeboah53i-d962a2da663c.herokuapp.com/api/ordabl/employer/1
+
+###
+
+DELETE https://kojoyeboah53i-d962a2da663c.herokuapp.com/api/ordabl/employee/5
+content-type: application/json
+
+
+###
+
+PATCH https://kojoyeboah53i-d962a2da663c.herokuapp.com/api/ordabl/employee/8
+Content-type: application/json
+{
+    "name": "naa",
+    "email": "n@email",
+    "jobtitle": "ffobtitle"
+}

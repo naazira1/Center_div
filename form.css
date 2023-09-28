@@ -1,0 +1,62 @@
+.employee-form{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 206, 220);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+@keyframes fadeOut{
+    from{  opacity: 1; }
+    to{opacity: 0;}
+}
+.remove-deleted {
+    transform: translateY(10rem) rotateZ(25deg);
+    opacity: 0;
+}
+
+.remove-deleted {
+    animation: fadeOut 0.5s ease-in-out;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px 18px;
+    /* margin: 0px 0; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
